@@ -62,7 +62,7 @@ body{
   border-radius: 0.8rem;
 }
 
-.winner{
+.player-turn{
   color: rgb(48, 79, 81);
   font-size: 1.5em;
   font-family: cursive;
