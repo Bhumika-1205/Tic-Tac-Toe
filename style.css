@@ -45,7 +45,7 @@ body{
 }
 
 .game-menu{
-  width: 60vh;
+  width: 80vmin;
   display: flex;
   justify-content: space-around;
   margin-top: 1.2rem;
@@ -75,11 +75,10 @@ body{
 
 .score-card{
   margin-top: 1rem;
-  /* background-color: #a8e6cf; */
   color: #184f6e;
   display: flex;
-  width: 60vh;
-  justify-content: space-around;
+  width: 80vmin;
+  justify-content: space-between;
   align-items: center;
   font-size: 1.5rem;
   font-weight: bold;
