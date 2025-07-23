@@ -1,0 +1,90 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  cursor: url(https://ani.cursors-4u.net/symbols/sym-9/sym825.ani), url(https://ani.cursors-4u.net/symbols/sym-9/sym825.png), auto !important;
+  font-family: comfortaa,pacifico,cursive;
+}
+
+body{
+  background-color: #ffc1cc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.container{
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#game{
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap:1.5vmin;
+}
+
+.box{
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1.2rem;
+  border: none;
+  background-color: #cbaacb;
+  border: 0.1rem solid #f1aaf1;
+  box-shadow:0px 0px 10px #f1aaf1;
+  color: #f5f5f5;
+  font-size: 2.5rem;
+  font-family: pacifico;
+}
+
+.game-menu{
+  width: 60vh;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.2rem;
+}
+
+.game-btn{
+  padding: 0.8rem;
+  color: #184f6e;
+  background-color: #89cff0;
+  border: 0.1px solid #8cc5e0;
+  font-weight: bold;
+  font-size: 1rem;
+  box-shadow: 0 0 10px #8cc5e0 ;
+  border-radius: 0.8rem;
+}
+
+.winner{
+  color: rgb(48, 79, 81);
+  font-size: 1.5em;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+.hide{
+  display: none;
+}
+
+.score-card{
+  margin-top: 1rem;
+  /* background-color: #a8e6cf; */
+  color: #184f6e;
+  display: flex;
+  width: 60vh;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.player-score{
+  font-size: 1.1rem;
+}
